@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: bisque;
+  font-family:'Courier New', Courier, monospace
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+h1, ul {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  box-shadow: inset 0 0 0 0 #58ab71;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+ul li a:hover {
+  box-shadow: inset 500px 0 0 0 #58ab71;
+  color: white;
+}
+
+ul li a:active {
+  color: white;
+}
+
+ul li {
+  line-height: 2rem;
+}
